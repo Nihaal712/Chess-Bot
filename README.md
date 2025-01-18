@@ -16,16 +16,16 @@ A Python-based chess engine designed to simulate and analyze chess games. The bo
 ## Project Structure
 
 Chess-Bot/
-├── **ChessMain.py**          - Entry point for the chess game with GUI.
-├── **ChessEngine.py**        - Core logic for move generation, validation, and board state management.
-├── **README.md**             - Documentation for the project.
-├── **requirements.txt**      - Python dependencies required to run the project.
-├── **resources/**            - Contains images for chess pieces and the board.
-│   ├── **wP.png**            - Example: White pawn image.
-│   ├── **bP.png**            - Example: Black pawn image.
-│   └── ...                   - Other chess piece images.
-├── **tests/**                - Unit tests for validating engine functionality.
-│   └── **test_chess.py**     - Test cases for move generation, validation, and special rules.
+- **ChessMain.py**: Entry point for the chess game with GUI.
+- **ChessEngine.py**: Core logic for move generation, validation, and board state management.
+- **README.md**: Documentation for the project.
+- **requirements.txt**: Python dependencies required to run the project.
+- **resources/**: Contains images for chess pieces and the board.
+  - **wP.png**: Example: White pawn image.
+  - **bP.png**: Example: Black pawn image.
+  - `...`: Other chess piece images.
+- **tests/**: Unit tests for validating engine functionality.
+  - **test_chess.py**: Test cases for move generation, validation, and special rules.
 
 ## Requirements
 
