@@ -23,10 +23,9 @@ Chess-Bot/
 ├── resources/            # Contains images for chess pieces and the board.
 │   ├── wP.png            # Example: White pawn image.
 │   ├── bP.png            # Example: Black pawn image.
-│   └── …               # Other chess piece images.
-└── tests/                # Unit tests for validating engine functionality.
-└── test_chess.py     # Test cases for move generation, validation, and special rules.
-
+│   └── ...               # Other chess piece images.
+├── tests/                # Unit tests for validating engine functionality.
+│   └── test_chess.py     # Test cases for move generation, validation, and special rules.
 ## Requirements
 
 To run the chess bot, ensure the following dependencies are installed:
