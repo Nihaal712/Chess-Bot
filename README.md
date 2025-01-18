@@ -36,3 +36,11 @@ To run the chess bot, ensure the following dependencies are installed:
   - `pygame`
   - `numpy`
   - `chess`
+
+## Further Development
+
+Currently, the project uses a **Naive LSTM** method for move prediction. In the future, we plan to enhance this approach by converting the chessboard dataset into a vector structure that captures spatial relationships between pieces. This will allow us to integrate CNN and LSTM together for better move prediction:
+- **CNN** will capture spatial patterns of piece interactions.
+- **LSTM** will handle the sequential nature of moves.
+
+Additionally, the **`chess.ipynb`** notebook is not yet integrated with **ChessMain.py**. We plan to merge it into the main codebase to improve the overall prediction system and make it more robust.
