@@ -26,6 +26,7 @@ Chess-Bot/
 │   └── ...               # Other chess piece images.
 ├── tests/                # Unit tests for validating engine functionality.
 │   └── test_chess.py     # Test cases for move generation, validation, and special rules.
+
 ## Requirements
 
 To run the chess bot, ensure the following dependencies are installed:
